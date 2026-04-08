@@ -1,0 +1,12 @@
+{
+  "name": "project1-unified",
+  "version": "1.0.0",
+  "description": "Unified runner for Project1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx -y concurrently \"npm start --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
